@@ -33,7 +33,7 @@ public class SistemaContactos {
         PreparedStatement stmt = conn.prepareCall(q);
         stmt.setString(1, "Jair");
         stmt.setString(2, "Espinales");
-        stmt.setString(3, "Node");
+        stmt.setString(3, "none");
         stmt.execute();
     }
 
